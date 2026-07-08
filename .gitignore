@@ -26,6 +26,7 @@ models/
 active_learning/annotated/
 active_learning/selected/
 active_learning/unlabeled_pool/
+active_learning/history/
 train/
 val/
 segmentation/
