@@ -1,0 +1,277 @@
+{
+  "action": "select",
+  "model_path": "sfs104.pt",
+  "k": 5,
+  "num_pool": 12,
+  "selected": [
+    "W0_8755_7_F.jpg",
+    "W0_8755_6_B.jpg",
+    "W0_8755_7_B.jpg",
+    "W0_8755_2_B.jpg",
+    "W0_8755_3_F.jpg"
+  ],
+  "all_rankings": [
+    {
+      "image": "W0_8755_7_F.jpg",
+      "scores": {
+        "confidence_score": 0.9141,
+        "margin_score": 0.0,
+        "detection_score": 0.875,
+        "combined_score": 0.6281,
+        "details": {
+          "num_detections": 1,
+          "mean_confidence": 0.2859,
+          "confidences": [
+            0.2859
+          ],
+          "class_counts": {
+            "0": 1
+          }
+        }
+      }
+    },
+    {
+      "image": "W0_8755_6_B.jpg",
+      "scores": {
+        "confidence_score": 0.6983,
+        "margin_score": 0.0672,
+        "detection_score": 0.75,
+        "combined_score": 0.5245,
+        "details": {
+          "num_detections": 2,
+          "mean_confidence": 0.4017,
+          "confidences": [
+            0.5362,
+            0.2673
+          ],
+          "class_counts": {
+            "0": 2
+          }
+        }
+      }
+    },
+    {
+      "image": "W0_8755_7_B.jpg",
+      "scores": {
+        "confidence_score": 0.6963,
+        "margin_score": 0.0656,
+        "detection_score": 0.75,
+        "combined_score": 0.5232,
+        "details": {
+          "num_detections": 2,
+          "mean_confidence": 0.4037,
+          "confidences": [
+            0.5349,
+            0.2724
+          ],
+          "class_counts": {
+            "0": 2
+          }
+        }
+      }
+    },
+    {
+      "image": "W0_8755_2_B.jpg",
+      "scores": {
+        "confidence_score": 0.8119,
+        "margin_score": 0.0353,
+        "detection_score": 0.625,
+        "combined_score": 0.5228,
+        "details": {
+          "num_detections": 3,
+          "mean_confidence": 0.3214,
+          "confidences": [
+            0.4212,
+            0.2727,
+            0.2705
+          ],
+          "class_counts": {
+            "0": 3
+          }
+        }
+      }
+    },
+    {
+      "image": "W0_8755_3_F.jpg",
+      "scores": {
+        "confidence_score": 0.7307,
+        "margin_score": 0.0623,
+        "detection_score": 0.625,
+        "combined_score": 0.4985,
+        "details": {
+          "num_detections": 3,
+          "mean_confidence": 0.4026,
+          "confidences": [
+            0.568,
+            0.3726,
+            0.2674
+          ],
+          "class_counts": {
+            "0": 3
+          }
+        }
+      }
+    },
+    {
+      "image": "W0_8755_5_F.jpg",
+      "scores": {
+        "confidence_score": 0.8524,
+        "margin_score": 0.028,
+        "detection_score": 0.375,
+        "combined_score": 0.4618,
+        "details": {
+          "num_detections": 5,
+          "mean_confidence": 0.3076,
+          "confidences": [
+            0.4069,
+            0.326,
+            0.2918,
+            0.2571,
+            0.2563
+          ],
+          "class_counts": {
+            "0": 5
+          }
+        }
+      }
+    },
+    {
+      "image": "W0_8755_5_B.jpg",
+      "scores": {
+        "confidence_score": 0.6325,
+        "margin_score": 0.0335,
+        "detection_score": 0.625,
+        "combined_score": 0.4506,
+        "details": {
+          "num_detections": 3,
+          "mean_confidence": 0.4341,
+          "confidences": [
+            0.5276,
+            0.4013,
+            0.3736
+          ],
+          "class_counts": {
+            "0": 3
+          }
+        }
+      }
+    },
+    {
+      "image": "W0_8755_3_B.jpg",
+      "scores": {
+        "confidence_score": 0.7737,
+        "margin_score": 0.0831,
+        "detection_score": 0.375,
+        "combined_score": 0.4469,
+        "details": {
+          "num_detections": 5,
+          "mean_confidence": 0.3863,
+          "confidences": [
+            0.7068,
+            0.3595,
+            0.3507,
+            0.2585,
+            0.2557
+          ],
+          "class_counts": {
+            "0": 5
+          }
+        }
+      }
+    },
+    {
+      "image": "W0_8755_6_F.jpg",
+      "scores": {
+        "confidence_score": 0.5887,
+        "margin_score": 0.079,
+        "detection_score": 0.5,
+        "combined_score": 0.4092,
+        "details": {
+          "num_detections": 4,
+          "mean_confidence": 0.4613,
+          "confidences": [
+            0.7173,
+            0.4259,
+            0.4175,
+            0.2846
+          ],
+          "class_counts": {
+            "0": 4
+          }
+        }
+      }
+    },
+    {
+      "image": "W0_8755_4_F.jpg",
+      "scores": {
+        "confidence_score": 0.446,
+        "margin_score": 0.0081,
+        "detection_score": 0.75,
+        "combined_score": 0.4058,
+        "details": {
+          "num_detections": 2,
+          "mean_confidence": 0.554,
+          "confidences": [
+            0.5701,
+            0.5378
+          ],
+          "class_counts": {
+            "0": 2
+          }
+        }
+      }
+    },
+    {
+      "image": "W0_8755_2_F.jpg",
+      "scores": {
+        "confidence_score": 0.714,
+        "margin_score": 0.0506,
+        "detection_score": 0.125,
+        "combined_score": 0.3383,
+        "details": {
+          "num_detections": 7,
+          "mean_confidence": 0.4288,
+          "confidences": [
+            0.658,
+            0.4718,
+            0.396,
+            0.3936,
+            0.3861,
+            0.3493,
+            0.347
+          ],
+          "class_counts": {
+            "0": 7
+          }
+        }
+      }
+    },
+    {
+      "image": "W0_8755_4_B.jpg",
+      "scores": {
+        "confidence_score": 0.6499,
+        "margin_score": 0.0927,
+        "detection_score": 0.125,
+        "combined_score": 0.3253,
+        "details": {
+          "num_detections": 7,
+          "mean_confidence": 0.4358,
+          "confidences": [
+            0.8418,
+            0.4744,
+            0.4677,
+            0.4189,
+            0.3241,
+            0.2718,
+            0.2521
+          ],
+          "class_counts": {
+            "0": 7
+          }
+        }
+      }
+    }
+  ],
+  "timestamp": "2026-06-29T11:25:05.438615",
+  "round_number": 1
+}

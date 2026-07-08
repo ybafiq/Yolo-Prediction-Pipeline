@@ -1,0 +1,16 @@
+{
+  "action": "auto_loop",
+  "model_path": "best.pt",
+  "k": 5,
+  "num_pool": 44,
+  "selected": [
+    "W0_8755_7_F.jpg",
+    "W0_8755_2_B.jpg",
+    "IMG_20231227_074220.jpg",
+    "W0_8755_5_B.jpg",
+    "W9_8755_B.jpg"
+  ],
+  "num_integrated": 5,
+  "timestamp": "2026-06-29T14:39:03.360712",
+  "round_number": 5
+}

@@ -1,0 +1,35 @@
+# Python virtual environment & cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# IDEs & System files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+
+# YOLO Models & Weights
+*.pt
+*.onnx
+*.engine
+models/
+
+# Dataset folders (Images, Labels, Splits) - Ignored recursively
+**/images/
+**/labels/
+active_learning/annotated/
+active_learning/selected/
+active_learning/unlabeled_pool/
+train/
+val/
+segmentation/
+predict_images/
+
+# Training and prediction outputs
+runs/

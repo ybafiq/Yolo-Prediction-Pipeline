@@ -1,0 +1,6 @@
+train: D:\FGV\Segmentation\Prediction\train
+val: D:\FGV\Segmentation\Prediction\val
+
+nc: 1 
+
+names: ["Plant"]

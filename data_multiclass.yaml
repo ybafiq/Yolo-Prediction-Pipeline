@@ -1,0 +1,8 @@
+# Dataset configuration for multi-class plant tissue culture disease tracking
+train: D:\FGV\Segmentation\Prediction\train
+val: D:\FGV\Segmentation\Prediction\val
+
+nc: 2
+names:
+  0: healthy_leaf
+  1: affected_leaf

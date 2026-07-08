@@ -1,0 +1,29 @@
+# Active Learning Configuration
+# ==============================
+
+# Paths
+unlabeled_pool: "D:\\FGV\\Segmentation\\Prediction\\active_learning\\unlabeled_pool\\images"
+selected_dir: "D:\\FGV\\Segmentation\\Prediction\\active_learning\\selected\\images"
+annotated_dir: "D:\\FGV\\Segmentation\\Prediction\\active_learning\\annotated"
+history_dir: "D:\\FGV\\Segmentation\\Prediction\\active_learning\\history"
+train_dir: "D:\\FGV\\Segmentation\\Prediction\\train"
+val_dir: "D:\\FGV\\Segmentation\\Prediction\\val"
+
+# Selection parameters
+top_k: 5                    # Number of images to select per round
+confidence_threshold: 0.25  # YOLO confidence threshold for inference
+expected_detections: 8      # Expected number of plants per image (tube rack)
+val_split_ratio: 0.2        # Fraction of new images to add to val instead of train
+
+# Uncertainty weights (how much each strategy contributes to final score)
+weight_confidence: 0.4      # Low-confidence detections
+weight_margin: 0.3          # Ambiguity between healthy vs affected
+weight_detection_count: 0.3 # Unexpected number of detections
+
+# Retraining parameters
+base_model: "D:\\FGV\\Segmentation\\Prediction\\yolo26m-seg.pt"
+data_yaml: "D:\\FGV\\Segmentation\\Prediction\\data_multiclass.yaml"
+epochs: 50
+imgsz: 640
+batch: 6
+device: "cpu"

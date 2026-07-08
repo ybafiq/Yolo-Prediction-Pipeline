@@ -1,0 +1,9 @@
+{
+  "action": "auto_annotate",
+  "model_path": "sfs104.pt",
+  "format": "yolo",
+  "num_annotated": 5,
+  "source_dir": "D:\\FGV\\Segmentation\\Prediction\\active_learning\\selected\\images",
+  "timestamp": "2026-06-29T11:37:26.514275",
+  "round_number": 2
+}
