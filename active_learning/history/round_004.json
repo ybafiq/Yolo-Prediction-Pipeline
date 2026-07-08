@@ -1,7 +1,0 @@
-{
-  "action": "retrain",
-  "base_model": "sfs104.pt",
-  "best_weights": "active_learning_runs\\al_round_20260629_114523\\weights\\last.pt",
-  "timestamp": "2026-06-29T12:36:03.616176",
-  "round_number": 4
-}
