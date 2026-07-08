@@ -1,6 +1,6 @@
-# YOLO Plant Disease Segmentation & Severity Prediction Pipeline
+# YOLO Segmentation & Severity Prediction Pipeline
 
-This repository contains a pipeline for training, predicting, and tracking disease severity of plant clones using YOLO segmentation models. It also includes an active learning framework to iteratively select informative images for training.
+This repository contains a pipeline for training, predicting, and tracking using YOLO segmentation models. It also includes an active learning framework to iteratively select informative images for training.
 
 ---
 
